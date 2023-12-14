@@ -1,0 +1,102 @@
+.App {
+  text-align: center;  
+  color: white;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+
+  background-image: url(./images/background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.container1{
+  margin: auto;
+  height: 22em;
+  width: 18em;
+  position: relative;
+
+  background-image: url(./images/bg2.jpg);
+  background-position-x: 25%;
+  background-size: cover;
+  border: 1.5px solid rgb(214, 212, 212);
+}
+
+.container{
+  margin: auto;
+  display:flex;
+}
+
+.container2{
+  width: 14em;
+  border-left:22px solid rgb(17, 17, 17);
+  opacity: calc(00.2em);
+  background-color: rgba(74, 74, 74, 0.5);
+}
+
+.location-cont {
+  position: absolute;
+  top: 0;
+  right: 0; 
+  font-size: 1.5em;
+  text-align: right;
+    margin-right: 0.3em;
+    margin-top: 0.2em;
+}
+
+
+.date-time-cont {
+  position: absolute;
+  bottom: 0;
+  left: 0; 
+  text-align: left;
+  margin-left: 5px;
+}
+
+
+.time-cont{
+  font-size: 1.3em;
+  margin-left: 2px;
+}
+
+.date-cont{
+  margin-bottom: .5em;
+  font-size: .64em;
+}
+
+.temp-cont {
+  position: absolute;
+  bottom: 0;
+  right: 0 ;
+  font-size: 2.1em;
+  font-size: 3.1em;
+  margin-right: 0.2em;
+
+}
+
+
+.black-box {
+  background-color: rgba(0, 0, 0, 0.7); /* Black color with 70% opacity */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 10px; /* Optional: Add rounded corners for a nicer look */
+  text-align: center;
+  color: white; /* Optional: Set text color to white for better visibility */
+  width: 600px;
+
+
+}
+.black-box img{
+  height: auto;
+  width: 375px;
+}
+
+.loading-content {
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
+.smalltext{
+  font-size: 0.8em;
+}

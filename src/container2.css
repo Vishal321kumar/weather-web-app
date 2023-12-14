@@ -1,0 +1,58 @@
+.cont2{
+    font-size: 1.7em;
+
+}
+.logo{
+    height: auto;
+    width: 58px;
+    margin: 12px;
+}
+.search-logo{
+    height: auto;
+    width: 12px;
+}
+
+.render-img{
+    height: auto;
+    width: 58px;
+    margin: 12px;
+}
+.btn{
+    padding-top: 1px;
+}
+.btn:hover{
+    background-color: rgb(149, 146, 146);
+}
+.cont2{    
+    text-transform: capitalize;
+}
+
+.hrtop{
+    margin: 6px 15px;
+}
+.input-field{
+    margin-top: 10px; 
+}
+
+.entries{
+    border: 2px solid rgb(228, 228, 134);
+    font-size: medium;
+    
+}
+
+.entry{
+    font-size: medium;
+    margin: 18px 44px;
+}
+
+.entry img{
+    height: auto;
+    width: 25px;
+}
+
+
+
+.temp-entry ,.visib-entry ,.wind-entry, .humid-entry {
+    display: flex;
+    justify-content: space-between;
+}
