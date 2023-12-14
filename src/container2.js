@@ -39,13 +39,14 @@ const Container2 = ({weather,locWeather,setCity}) => {
     'broken clouds':clouds,
     'overcast clouds':clouds,
     'clear sky' :clearsky,
-    default: weather.iconURL,
+    default1: locWeather.iconURL,
+    deafult:weather.iconURL
   };
 
   const getWeatherImage = (description) => {
     // Convert description to lowercase for case-insensitive matching
     const key = description.toLowerCase();
-    return weatherImageMap[key] || weatherImageMap.default;
+    return weatherImageMap[key] || weatherImageMap.default1;
   };  
 
   function handleSearch(e){ 
